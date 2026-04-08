@@ -1,1 +1,1 @@
-# Vj_synopsis_genrator
+# AI Powered Report Gen
