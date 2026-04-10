@@ -4,9 +4,9 @@ import io # NEW IMPORT: Used to handle the Word document in memory
 import streamlit as st # NEW IMPORT: The core library for the web app
 
 # Third-party libraries
-from docx import Document
-from docx.shared import Pt, Inches
-from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
+from python-docx import Document
+from python-docx.shared import Pt, Inches
+from python-docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
 import google.generativeai as genai
 
 # --- Gemini Generation Function (Slightly Modified for Streamlit Secrets) ---
